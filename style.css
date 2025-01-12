@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #003b8c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  min-height: 100vh;
+}
+
+
+.container-senha {
+  display: flex;
+  flex-direction: column; /* Organiza o título acima dos painéis */
+  align-items: center;
+  gap: 20px; /* Espaçamento entre o título e os painéis */
+  margin-top: 60px;
+}
+
+.painel-container {
+  display: flex;
+  justify-content: center; /* Centraliza os painéis horizontalmente */
+  gap: 20px; /* Espaçamento entre os painéis */
+}
+
+.painel {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border: 2px solid #497bd6;
+  border-radius: 18px;
+  background-color: #0057d9;
+  color: aliceblue;
+  text-align: center;
+}
+
+h1 {
+  font-size: 35px;
+  color: aliceblue;
+  text-align: center;
+}
+
+.senha {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border: 2px solid #497bd6;
+  border-radius: 18px;
+  background-color: #0057d9;
+}
+
+.senha h2 {
+  font-size: 40px;
+}
+
+.senha p {
+  font-size: 20px;
+  color: #ffdf00; /* Amarelo para o consultório */
+}
+
+.titulo h1 {
+  font-size: 45px;
+  color: aliceblue;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.legenda {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.legenda h4 {
+  color: goldenrod;
+  text-align: center;
+}
