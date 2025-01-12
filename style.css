@@ -71,7 +71,7 @@ h1 {
 
 .senha p {
   font-size: 20px;
-  color: #ffdf00; /* Amarelo para o consultório */
+  color: #ffffff; /* Amarelo para o consultório */
 }
 
 .titulo h1 {
@@ -88,6 +88,7 @@ h1 {
 }
 
 .legenda h4 {
-  color: goldenrod;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
   text-align: center;
 }
